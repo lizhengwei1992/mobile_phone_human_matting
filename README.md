@@ -19,8 +19,10 @@ test camera, you need a camera, run ```./camera.sh```.
 test image, run ```./test.sh```.
 
 # Speed Analysis
-convert the pytorch model to ncnn. [tools](https://github.com/starimeL/PytorchConverter)
-Platform    : [ncnn](https://github.com/Tencent/ncnn).
+
+Platform    : [***ncnn***](https://github.com/Tencent/ncnn).
+
+(use this [tools](https://github.com/starimeL/PytorchConverter) convert the pytorch model to ncnn.)
 
 Mobile phone: Samsung Galaxy S8+(cpu).
 
