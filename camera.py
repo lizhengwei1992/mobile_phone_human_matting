@@ -13,8 +13,8 @@ from collections import OrderedDict
 import torch.nn.functional as F
 
 parser = argparse.ArgumentParser(description='human matting')
-parser.add_argument('--model', default='./model/model_new.pt', help='preTrained model')
-parser.add_argument('--without_gpu', action='store_true', default=False, help='finetuning the training')
+parser.add_argument('--model', default='./model/*.pt', help='preTrained model')
+parser.add_argument('--without_gpu', action='store_true', default=False, help='use cpu')
 
 args = parser.parse_args()
 
@@ -94,8 +94,12 @@ def seg_process(args, image, net):
     bg[:,:,0] = bg_gray
     bg[:,:,1] = bg_gray
     bg[:,:,2] = bg_gray
-
-    out = fg +bg
+    
+    # -----------------------------------------------------------------
+    # fg : olor, bg : gray
+    out = fg + bg
+    # fg : color
+    out = fg 
     out[out<0] = 0
     out[out>255] = 255
     out = out.astype(np.uint8)
