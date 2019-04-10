@@ -40,10 +40,10 @@ Demo video on my iphone 6 ([baiduyun](https://pan.baidu.com/s/1nieS7dSMw6Kwzsa1d
 - [3] [ERFNet: Efficient Residual Factorized ConvNet for Real-time Semantic Segmentation](http://www.robesafe.es/personal/eduardo.romera/pdfs/Romera17tits.pdf)
 - [4] [ShuffleSeg: Real-time Semantic Segmentation Network](https://arxiv.org/pdf/1803.03816.pdf)
 ## repos
-[pytorch-fast-matting-portrait](https://github.com/huochaitiantang/pytorch-fast-matting-portrait)
-[ESPNet](https://github.com/sacmehta/ESPNet)
-[Fast_Portrait_Segmentation](https://github.com/lizhengwei1992/Fast_Portrait_Segmentation)
-[Semantic_Human_Matting](https://github.com/lizhengwei1992/Semantic_Human_Matting)
+- [pytorch-fast-matting-portrait](https://github.com/huochaitiantang/pytorch-fast-matting-portrait)
+- [ESPNet](https://github.com/sacmehta/ESPNet)
+- [Fast_Portrait_Segmentation](https://github.com/lizhengwei1992/Fast_Portrait_Segmentation)
+- [Semantic_Human_Matting](https://github.com/lizhengwei1992/Semantic_Human_Matting)
 
 
 
